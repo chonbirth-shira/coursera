@@ -1,7 +1,7 @@
 *{
-	box-sizing: border-box;
-    font-family: Helvetica;
     color: white;
+    font-family: Helvetica;
+	box-sizing: border-box;
 }
 body{
 	background-color: #272727;
@@ -22,14 +22,12 @@ h1{
 }
 
 p.tag{
-	margin:0px;
-	padding: 8px;
 	float: right;
-	text-align: right;
-	position: relative;
-	border-radius: 0px 5px 0px 5px;
 	top: 0px;
 	right: 0px;
+	margin:0px;
+	padding: 8px;
+	border-radius: 0px 5px 0px 5px;
 	box-shadow:  -2px 2px 5px 0px rgba(0,0,0,0.2);
 }
 p.text{
