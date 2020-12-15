@@ -47,12 +47,7 @@ div div {
 	.col1-lg, .col2-lg, .col3-lg {
 		float: left;
 	}
-	.row{
-	display: flex;
-	}
-	.html,.css,.js{
-		flex: 1;
-	}
+	
     .col1-lg{
     	width: 32.2%;
     }
@@ -62,6 +57,12 @@ div div {
     .col3-lg{
     	width: 32.2%;
     }
+    .row{
+		display: flex;
+	}
+	.html,.css,.js{
+		flex: 1;
+	}
 }
 /**Medium Screen Size**/
 @media(min-width: 768px) and (max-width: 991px){
