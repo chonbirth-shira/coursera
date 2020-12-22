@@ -1,0 +1,90 @@
+*{
+    color: white;
+    font-family: Helvetica;
+	box-sizing: border-box;
+}
+body{
+	background-color: #272727;
+}
+h1{
+	text-align: center;
+	text-shadow: 1px 2px 2px #656565;
+}
+
+.html{
+	background-color: #F35D2C;
+}
+.css{
+	background-color: #0092D1;
+}
+.js{
+	background-color: #63BA07;
+}
+
+p.tag{
+	float: right;
+	top: 0px;
+	right: 0px;
+	margin:0px;
+	padding: 8px;
+	border-radius: 0px 5px 0px 5px;
+	box-shadow:  -2px 2px 5px 0px rgba(0,0,0,0.2);
+}
+p.text{
+	padding:10px;
+	padding-top: 20px;
+    clear: right;
+}
+div div {
+	background-color: #464646;
+	margin: 5px;
+	border-radius: 5px;
+	border: 1px solid black;
+	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.2);
+}
+/**Large Screen Size**/
+@media(min-width: 992px){
+	.col1-lg, .col2-lg, .col3-lg {
+		float: left;
+	}
+	
+    .col1-lg{
+    	width: 32.5%;
+    }
+    .col2-lg{
+    	width: 32.5%;
+    }
+    .col3-lg{
+    	width: 32.5%;
+    }
+    .row{
+		display: flex;
+	}
+	.html,.css,.js{
+		flex: 1;
+	}
+}
+/**Medium Screen Size**/
+@media(min-width: 768px) and (max-width: 991px){
+	.col1-md, .col2-md, .col3-md {
+		float: left;
+	}
+	.col1-md{
+		width: 48.6%;
+	}
+	.col2-md{
+		width: 48.6%
+	}
+	.col3-md{
+		width: 98.7%;
+	}
+}
+
+}
+/**Small Screen Size**/
+@media(max-width: 767px){
+	.col1-sm, .col2-sm, .col3-sm {
+		display: block;
+		width: 100%;
+	}
+}
