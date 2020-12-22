@@ -77,7 +77,6 @@ body {
 }
 /* End Section */
 
-
 @media (max-width: 767px) {
   .row > div > article {
     width: 80%;
