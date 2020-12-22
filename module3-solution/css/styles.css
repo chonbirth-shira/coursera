@@ -11,10 +11,11 @@ body {
   border-radius: 0;
   border: 0;
   color: white;
+  box-shadow:  -2px 2px 5px 0px rgba(0,0,0,0.2);
 }
 
 .navbar-brand p {
-  color: white;
+  color: #FF7178;
   font-size: 20px;
 }
 
@@ -28,7 +29,7 @@ body {
 }
 
 #nav-list a:hover {
-  color: black;
+  color: red;
   background-color: white;
 }
 /* END HEADER */
@@ -38,27 +39,41 @@ body {
   margin-bottom: 30px;
   text-shadow: 1px 2px 2px #656565;
 }
-
 .row {
   position: relative;
   float: left;
 }
 .red {
   background-color: #F35D2C;
+  padding: 10px;
+  margin: 0;
+  border-radius: 6px 6px 0px 0px;
+  box-shadow:  -2px 2px 5px 0px rgba(0,0,0,0.2);
 }
 .blue {
   background-color: #0092D1;
+  padding: 10px;
+  margin: 0;
+  border-radius: 6px 6px 0px 0px;
+  box-shadow:  -2px 2px 5px 0px rgba(0,0,0,0.2);
 }
 .green {
   background-color: #63BA07;
+  padding: 10px;
+  margin: 0;
+  border-radius: 6px 6px 0px 0px;
+  box-shadow:  -2px 2px 5px 0px rgba(0,0,0,0.2);
 }
 .row > div > article {
   text-align: justify;
   margin-bottom: 20px;
-  padding: 12px;
-  border: 1px solid #7C7c7c;
+  background-color: #464646;
+  border: 1px solid black;;
   border-radius: 6px;
   box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.2);
+}
+.row > div > article > p {
+  padding: 12px;
 }
 /* End Section */
 
