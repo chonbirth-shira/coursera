@@ -1,13 +1,13 @@
 body {
   font-size: 16px;
   color: white;
-  background-color: #8243d6;
-  font-family: 'Lobster', cursive;
+  background-color: #FFB000;
+  font-family: 'Bebas Neue', cursive;
 }
 
 /* HEADER */
 #header-nav {
-  background-color: #530fad;
+  background-color: #B47C00;
   border-radius: 0;
   border: 0;
   color: white;
@@ -28,17 +28,18 @@ body {
 }
 
 #nav-list a:hover {
-  background-color: #8243d6;
+  color: black;
+  background-color: white;
 }
 /* END HEADER */
 
 /* Section */
 #home {
   margin-bottom: 30px;
+  text-shadow: 1px 2px 2px #656565;
 }
 
 .row {
-  
   position: relative;
   float: left;
 }
@@ -49,6 +50,9 @@ body {
   margin-bottom: 20px;
   padding: 12px;
   color: black;
+  border: 1px solid #7C7c7c;
+  border-radius: 6px;
+  box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.2);
 }
 /* End Section */
 
